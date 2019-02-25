@@ -1,0 +1,101 @@
+.body-fondo{
+	background-image:url(../img/fondo_musical.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo-redes{
+	background-color: rgba(8, 45, 94, 0.95);
+  min-height: 10%;
+  border: none;
+}
+
+.logo{
+	width: 90px;
+	margin:10px;
+	margin-left: 30px;
+	padding: 5px;
+}
+
+.redes{
+	min-height: 50px;
+	padding-right: 60px;
+	padding-top: 80px;
+	}
+
+.sociales {
+	margin: 5px;
+	float: right;
+}
+.logotipo{
+	min-height: 50px;
+}
+
+.navbar{
+background-color: rgba(8, 45, 94, 1);
+border: none;
+display: block;
+		}
+
+.btn-link{
+	color:aliceblue;
+	width: 16.16%;
+}
+
+.entrada{
+	margin: 5px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.portrait{
+height: 270px;
+padding: 10px
+}
+
+p{
+	font-size: 14px;
+	}
+.form-control{
+	margin: 5px;
+}
+
+label{
+	margin: 10px;
+}
+.iconos {
+	padding-top: 10px;
+}
+
+@media(max-width: 700px){
+	.btn-group{
+		display:flex;
+		flex-direction: column;
+		}
+	.list-group{
+		display: none;
+	}
+	.logo{
+		margin: 0 auto;
+	}
+	
+	.fa-user{
+		display:none;
+	}
+
+	hr{
+		display: none;
+	}
+	.form-check-input{
+	display: none;
+
+}
+}
+
+.form-check-input{
+	margin-top: 10px;
+	padding: 5px;
+	float: right;
+}

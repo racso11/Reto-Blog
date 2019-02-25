@@ -1,0 +1,74 @@
+
+body{
+	background: url(../img/fondo.jpg) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-O-background-size:cover;
+}
+
+.vertical{
+    border:         none;
+    border-left:    1px solid crimson;
+    height:         90px;
+    width:          2px;
+	float:right;
+	}
+
+hr{
+	border: none;
+	display: block;
+	height: 2px;
+	border-top: 1px solid crimson;
+}	
+
+
+.trans{
+	background-color:transparent !important;
+	border: none;
+}
+
+#transbox{
+	background:rgba(255,240,235,0.7);
+	padding: 20px;
+	}
+
+.callout{
+	border: none;
+}
+
+
+
+h2, h4, h6{
+	color:crimson;
+	font-family: 'Coiny', cursive;
+}
+
+p{
+	font-size: 15px;
+}
+
+button {
+	background:crimson !important;
+}
+
+.input-group-field{
+	border: none;
+}
+
+.thumbnail{
+		box-shadow: none;
+}
+
+.form-control{
+	border: none;
+}
+
+.slogan{
+	text-align:right;
+	padding: inherit;
+}
+
+li{
+	list-style-type:none;
+	color: crimson;
+}

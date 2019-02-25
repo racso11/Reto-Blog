@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image:url(../img/../img/fondo1.jpg);
+	background-attachment: fixed;
+}
+
+
+h3{
+	text-align:center;
+	font-family: 'Gruppo', cursive;
+	color: white;
+}
+
+h2{
+	font-family: 'Gruppo', cursive;
+	color: #034577;
+}
+
+h4, h5{
+	font-family: 'Gruppo', cursive;
+	color: #034577;
+}
+
+.barra_superior {
+	min-height: 7rem;
+}
+
+.social_media {
+	border: none !important;
+}
+
+.entrada1{
+	margin: 1rem;
+	}
+.entrada2{
+	margin: 1rem;
+	paddin: 1rem;
+	
+}
+
+.autor{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	}
+
+.titulo{
+	text-align: center;
+}
+
+i.icon-white{
+	color: white;
+}
+
+.box label {
+	color: #bbdefb !important;
+}
+
